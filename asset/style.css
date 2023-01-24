@@ -1,0 +1,38 @@
+/* background color same font style for all */
+
+body {
+    background-color: #a8a8d6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* title one container color shade large bolded white text color */
+.header {
+    height: 50px;
+    font-size: 30px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(0,212,255,1) 100%);
+    }
+
+
+
+
+/* search for city container on the left side with rapid city selections */
+
+.Search-box {
+    background-color: whitesmoke;
+    position: relative;
+    width: 100%;
+    padding: 0px, 15px;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+/* selected city, top container with details as a list */
+
+/* selected city, botton container with 5 day forecast */
