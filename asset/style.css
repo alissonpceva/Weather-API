@@ -23,7 +23,7 @@ body {
 
 /* search for city container on the left side with rapid city selections */
 
-.Search-box {
+#Search-box {
     background-color: whitesmoke;
     position: relative;
     width: 100%;
