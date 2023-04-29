@@ -89,28 +89,3 @@ searchBtn.addEventListener('click', async () => {
     renderSearchHistory();
   }
 });
-
-
-
-
-
-
-
-// function fetchWeatherData(location) {
-//     const apiKey = "468a7fbaaf50d235c9170f427ec8ea1";
-//     const url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${location}`;
-  
-//     return fetch(url)
-//       .then((response) => response.json())
-//       .then((data) => {
-//         const { location, current } = data;
-//         return {
-//           location: `${location.name}, ${location.region}, ${location.country}`,
-//           date: current.last_updated,
-//           image: current.condition.icon,
-//           temperature: current.temp_c,
-//           wind: current.wind_kph,
-//           humidity: current.humidity,
-//         };
-//       });
-//     }
